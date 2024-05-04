@@ -10,7 +10,7 @@ export default{
   },
   data() {
     return {
-      active: this.route,
+      active: this.route ?? 1,
     }
   },
 }
