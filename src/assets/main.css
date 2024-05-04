@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Poller+One&family=Noto+Serif+TC&family=DotGothic16&family=Noto+Sans+TC:wght@100..900&family=Rampart+One&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply font-NotoSans
+}
+html{
+  @apply bg-bg-white
+}
