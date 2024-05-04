@@ -93,13 +93,13 @@ export default{
     @apply pt-[80px] pl-[30px] lg:pl-[120px] px-10 flex flex-col items-end relative z-[2] overflow-x-hidden
   }
   .works-container {
-    @apply flex flex-col w-[95%] h-full overflow-hidden gap-y-5 pt-20 lg:pt-0
+    @apply flex flex-col w-[95%] h-full overflow-hidden gap-y-5 pt-10 lg:pt-0
   }
   .works-list{
     @apply flex w-full flex-wrap gap-x-[3%]
   }
   .list-content{
-    @apply leading-[40px] relative mt-5 pl-5 cursor-pointer inline-block
+    @apply leading-[40px] relative mt-5 sm:pl-5 cursor-pointer inline-block
   }
   .view {
     visibility: hidden;
@@ -121,7 +121,7 @@ export default{
     @apply text-xl md:text-2xl font-mono tracking-wider font-bold text-text-color mt-3
   }
   .pic {
-    @apply w-[350px] h-[220px] sm:w-[300px] sm:h-[200px] bg-slate-400 rounded-md bg-center bg-no-repeat bg-cover relative
+    @apply w-[300px] h-[220px] sm:w-[300px] sm:h-[200px] bg-slate-400 rounded-md bg-center bg-no-repeat bg-cover relative
   }
   .top {
     transition: all 1s ease-in-out;

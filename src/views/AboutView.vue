@@ -51,9 +51,9 @@ export default{
 </template>
 
 <style scoped>
-  br {
+  /* br {
     @apply hidden about:block
-  }
+  } */
   main {
     @apply pt-[80px] pl-[30px] lg:pl-[120px] px-10 flex flex-col items-end relative xl:flex overflow-x-hidden h-screen xl:overflow-y-hidden 
   }

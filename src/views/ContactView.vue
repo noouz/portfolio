@@ -45,7 +45,7 @@ export default{
         <span class="font-STIX text-[1.3rem] sm:text-2xl md:text-3xl">09-58369636</span>
       </div>
       <div class="tracking-wider text-3xl mt-8" ref="git">
-        <div class="flex items-center font-NotoSerif mb-3">
+        <div class="flex items-center font-NotoSerif sm:mb-3">
           <img :src="github" alt="github" class="flex h-7 w-7">
           <h2 class="text-normal-text font-bold font-NotoSerif ml-3 pb-2 text-2xl sm:text-3xl">github</h2>
         </div>
@@ -60,10 +60,10 @@ export default{
     @apply pt-[80px] pl-[30px] lg:pl-[120px] px-10 flex flex-col items-end relative xl:flex overflow-x-hidden h-screen overflow-y-hidden
   }
   .contact-container {
-    @apply flex flex-col w-[95%] h-full overflow-hidden gap-y-5 pt-20 lg:pt-0 z-[5]
+    @apply flex flex-col w-[95%] h-full overflow-hidden sm:gap-y-5 pt-10 lg:pt-0 z-[5]
   }
   .info {
-    @apply tracking-wider text-3xl gap-y-5 flex flex-col mt-8
+    @apply tracking-wider text-3xl gap-y-2 sm:gap-y-5 flex flex-col mt-8
   }
   i {
     @apply text-text-color mr-3 pt-[2px]
@@ -78,10 +78,10 @@ export default{
   .Rbottom {
     transform: scale(-1) rotate(-30deg);
     transition: all 1s ease-in-out;
-    @apply absolute bottom-[-45px] md:bottom-[-65px] lg:bottom-[-80px] left-[-40px] xl:left-[-30px] w-[28%] z-[3] min-w-[320px] opacity-0
+    @apply absolute bottom-[-45px] md:bottom-[-65px] lg:bottom-[-80px] left-[-40px] xl:left-[-30px] w-[28%] z-[3] min-w-[250px] opacity-0
   }
   .desktop {
-    @apply absolute h-[30%] sm:h-[35%] lg:h-[40%] xl:h-[50%] bottom-[110px] sm:bottom-[80px] lg:bottom-[40px] right-[10px] sm:right-[20px] lg:right-[40px] opacity-0
+    @apply absolute h-[30%] sm:h-[35%] lg:h-[40%] xl:h-[50%] bottom-[40px] sm:bottom-[20px] lg:bottom-[30px] right-0 sm:right-[20px] lg:right-[40px] opacity-0
   }
   .cloud {
     animation: cloud 3s ease-in-out forwards;

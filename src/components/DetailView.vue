@@ -55,7 +55,7 @@ export default{
   }
   .pic {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px 0px;
-    @apply w-full xl:w-[45%] h-[330px] md:h-[430px] xl:h-[450px] bg-slate-400 rounded-md bg-center bg-no-repeat bg-cover min-w-[450px] relative
+    @apply w-full xl:w-[45%] h-[330px] md:h-[430px] xl:h-[450px] bg-slate-400 rounded-md bg-center bg-no-repeat bg-cover min-w-[340px] relative
   }
   .right {
     @apply mt-auto lg:mt-0 xl:w-[55%] xl:flex xl:flex-col xl:justify-between

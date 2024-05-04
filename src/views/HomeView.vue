@@ -89,10 +89,10 @@ export default{
   }
   .h1-1 {
     -webkit-text-stroke: 3px #3D4F60;
-    @apply font-Notable absolute bottom-[10px] right-[-15%] sm:right-[-8%] text-[48px] sm:text-[64px] md:text-[84px] lg:text-[100px] xl:text-[128px] text-transparent z-[8]
+    @apply font-Notable absolute bottom-[10px] right-[-16%] sm:right-[-8%] text-[48px] sm:text-[64px] md:text-[84px] lg:text-[100px] xl:text-[128px] text-transparent z-[8]
   }
   .h1-2 {
-    @apply font-Notable absolute text-[#acb7c2] bottom-[5px] md:bottom-[3px] lg:bottom-0 right-[-16%] sm:right-[-8.5%] text-[48px] sm:text-[64px] md:text-[84px] lg:text-[100px] xl:text-[128px] z-[7]
+    @apply font-Notable absolute text-[#acb7c2] bottom-[5px] md:bottom-[3px] lg:bottom-0 right-[-17%] sm:right-[-8.5%] text-[48px] sm:text-[64px] md:text-[84px] lg:text-[100px] xl:text-[128px] z-[7]
   }
   .top {
     transition: all 1s ease-in-out;
